@@ -1,0 +1,39 @@
+After Implementing Keyhandler, it's time to render the character to the game
+
+1) Create package called "Entity", and create 2 class
+
+	- Entity
+	- Player
+
+*Entity
+	Player location(x,y)
+	Player movement(speed)
+	BufferedImage
+	Direction (String)
+	
+*Player
+	setDefaultValues()
+	getPlayerImage()
+	update()
+	draw(Graphics2D g2)
+
+2) Then Create a res Folder for the images
+	- player
+	- tiles
+	- maps
+
+3) Create another package called "Tile", and create 2 class
+
+	- Tile
+	- TileManager
+
+*Tile
+	BufferedImage
+	collision
+
+*TileManager
+	getTileImage()
+	loadMap()
+	draw(Graphics2D g2)
+
+
